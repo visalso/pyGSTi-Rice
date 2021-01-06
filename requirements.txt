@@ -1,0 +1,6 @@
+####### Requirements #######
+numpy
+scipy
+plotly
+ply
+

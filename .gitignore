@@ -1,0 +1,93 @@
+*~
+*.tmp
+*.bak
+*.swp
+*.pkl
+*.out
+*.coverage*
+*.serial
+*.cache
+.ipynb_checkpoints
+test/test_packages/temp_test_files/*
+jupyter_notebooks/Tutorials/tutorial_files
+jupyter_notebooks/Tutorials/offline
+jupyter_notebooks/Examples/example_files
+test/test_packages/offline
+hooks/etc/permissions.yml
+*comm_output*.txt
+**offline/
+**tutorial_files
+*.lprof
+*.cache
+
+# Test Metadata #
+#################
+test/output/*
+test/output/pylint/*
+test/output/individual_coverage/*/*
+test/test_packages/.noseids
+test/test_packages/cmp_chk_files/Fake_Dataset_none.txt.cache
+**tutorial_files
+
+# Compiled source #
+###################
+*.pyc
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.aux
+*.dvi
+*.toc
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+.idea/
+HighImpactPaper1/texFiles/.DS_Store
+
+# Generated documentation #
+###########################
+doc/html/*
+doc/build/*.rst
+doc/build/_build/*
+
+# Customer Data #
+#################
+scripts/profiling/report/*.ipynb
+scripts/profiling/report/Analyze+2Q+data.py
+scripts/profiling/report/*.html
+scripts/profiling/*.html
+scripts/profiling/report/standard_report.py
+scripts/profiling/report/tp_report.py
+scripts/profiling/report/rigetti_nocache.py
+
+# Profiling data #
+scripts/profiling/output
+scripts/profiling/data
+
